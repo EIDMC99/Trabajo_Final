@@ -26,7 +26,7 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
 
 ## NOMBRE DEL PROYECTO Y DETALLES
 
-El nombre escogido para este proyecto será el de: *Parqueadero: "¡Parchese pues!"*.
+El nombre escogido para este proyecto será el de: *Parqueadero: "¡Párchese!"*.
 
 Este proyecto tiene el objetivo de brindar el servicio de parqueadero a todos los estudiantes, profesores y familia universitaria de la Universidad de Antioquia en la ciudad de Medellín, esto con el fin de lograr experiencias más amenas y satisfacer la demanda de parqueadero que tanto atormenta a nuestra comunidad. 
 
