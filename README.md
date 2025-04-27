@@ -8,7 +8,7 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
 
 - **Darsy Daniela Doria:**
 
-- **Nombre:**
+- **Hancer David Romero Trespalacios:** Hola a todos, soy de Montelíbano Córdoba, tengo 29 años, me encuentro motivado por aprender y adquirir experiencia práctica con este trabajo, además me siento comprometido con el crecimiento personal y del equipo. 
 
 ## VINCULOS ACADÉMICOS Y DESCRIPCIÓN
 
@@ -20,9 +20,9 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
   - Estudiante de
   - Descripción
 
-- **Nombre:**
-  - Estudiante de
-  - Descripción 
+- **Hancer David:**
+  - Estudiante de Ingeniería Industrial, seccional Bajo Cauca. 
+  - Me identifico como una persona curiosa, detallista y en constante aprendizaje.  
 
 ## NOMBRE DEL PROYECTO Y DETALLES
 
@@ -46,10 +46,17 @@ El sofware es amigable para el usuario, brindando una interfaz vistosa y fácil 
 
   - **Automatizar los procesos de gestión del parqueadero:**
   - **Recopilar información:**
+  - **Facilitar el cálculo automático de cobros por hora o fracción:**
+  - **Controlar en tiempo real los espacios disponible:**
+  - **Calcular atomaticamente el cobro:**
+ 
 
 ### BENEFICIOS DEL SOFWARE
 
   - **Recopilación de información:**
+  - **Eliminación de registro manuales en papel:**
+  - **Mejorar en la atención y servicio a los usuarios del parqueadero:**
+  - **Mayor eficiencia operativa:**
 
 ## ESPECIFICACIÓN DE REQUISITOS
 
