@@ -6,7 +6,7 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
 
 - **Jeffrey David Manjarres Ciro:** Hola a todos, pueden llamarme "Ciro". Soy del municipio de Puerto Berrío, tengo 21 años y estoy muy entusiasmado de participar en este proyecto.
 
-- **Darsy Daniela Doria:**
+- **Darsy Daniela Doria:** 
 
 - **Hancer David Romero Trespalacios:** Hola a todos, soy de Montelíbano Córdoba, tengo 29 años, me encuentro motivado por aprender y adquirir experiencia práctica con este trabajo, además me siento comprometido con el crecimiento personal y del equipo. 
 
@@ -17,8 +17,8 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
   - Me considero una persona muy optimista y siempre estoy dispuesto a enfrentar y solucionar los problemas que se me presentan.
 
 - **Darsy:**
-  - Estudiante de
-  - Descripción
+  - Estudiante de 
+  - Descripción 
 
 - **Hancer David:**
   - Estudiante de Ingeniería Industrial, seccional Bajo Cauca. 
