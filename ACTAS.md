@@ -9,13 +9,13 @@
 
 ## EXPECTATIVAS DE CADA MIEMBRO RESPECTO AL PROYECTO
 
-- **Darsy Daniela Doria:**
+- **Darsy Daniela Doria:** Espero que este proyecto nos permita aplicar los conocimientos obtenidos en clase, desarrollar nuevas habilidades y seguir mejorando nuestra habilidad de trabajo en equipo y capacidad de adaptación. Me motiva saber que estamos creando una herramienta qu epuede ser útil en la vida real.
 - **Hancer**
 - **Jeffrey**
 
 # ACTA DE COLABORACIÓN
 
-Dado de que cada uno de los integrantes del grupo se encuntra en distintas localides del departamento Antiqueño y cuenta diferentes horarios debido a las condiciones laborales y/o académicas, las metodologías de reunión serán las siguientes:
+Dado de que cada uno de los integrantes del grupo se encuntra en distintas localides del departamento Antiqueño y cuenta con diferentes horarios debido a las condiciones laborales y/o académicas, las metodologías de reunión serán las siguientes:
 
 - Encuentros asincrónicos por chat entre semana, en los cuales se informará a los compañeros sobre los progresos del proyecto y se aportarán ideas.
 
