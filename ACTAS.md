@@ -65,12 +65,13 @@ Para Jeffrey
  - Creación del software y aporte de ideas para el mismo
  - Administración del repositorio de Github en el cual se realiza el trabajo
 
-# Firma de la actas
+# Firma de la acta
 
 **Darsy:**
 
+**Hancer**
 
-**Hancer:**
+**Jeffrey**
+  Alias 
+  Firma
 
-**Jeffrey:**
-Jeffdmciro
