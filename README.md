@@ -76,7 +76,7 @@ Dados las condiciones del software solicitados por el parqueadero, el mismo cont
 
 - **Funciones Administrativas:** A estas funciones sólo podrán acceder los usuarios con el rol de administrador. En las funciones administrativas se guardará toda la base de datos del parqueadero.
 
-### Requisitos no funcionales:**
+### Requisitos no funcionales:
 
 - **Rendimiento:** El software deberá estar optimizado para correr con cortos tiempos de carga, esto con el fin de mejorar la velocidad y calidad del servicio.
 
