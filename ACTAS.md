@@ -39,7 +39,7 @@ Dado de que cada uno de los integrantes del grupo se encuntra en distintas local
 
 # ACTA DE RESPONSABILIDAD 
 
-Dado situación en la que se encuentran los miembros del grupo se acordó que cada uno de los miembro arquiera las siguientes responsabilidades.
+Dado la situación en la que se encuentran los miembros del grupo se acordó que cada uno de los miembro adquiera las siguientes responsabilidades.
 
 Para todos:
 
@@ -68,8 +68,9 @@ Para Jeffrey
 # Firma de la acta
 
 **Darsy:**
-- Alias:
-- Firma:
+- Alias: Darsydoria
+- Firma: *Darsy Doria*
+  
   
 **Hancer David Romero Trespalacios**
 - Alias: Hadaro13
