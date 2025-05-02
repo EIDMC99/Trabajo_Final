@@ -40,7 +40,7 @@ Esto con el fin de que todos quienes deseen adaptarlo a su respectivo negocio pu
 
 ## REPORTE DE VISIÓN
  
-El propósito general de este software sará el manejo de información con el fin de agilizar las tareas de operación del parqueadero, mejorando la eficiencia en la prestación del servicio y la calidad del mismo. Para ello el software deberá cumplir con los suiguientes objetivos.
+El propósito general de este software sará el de ser una vital herramienta en las tareas de operación del parqueadero. Para ello el mismo deberá cumplir con los suiguientes objetivos.
 
 ### OBJETIVOS DEL SOFTWARE
 
@@ -54,12 +54,13 @@ El propósito general de este software sará el manejo de información con el fi
 
 ### BENEFICIOS DEL SOFWARE
 
+  - **Eliminación de registro manuales en papel:** De esta manera se logran dos cosas:
+      - Cuidado del medio ambiente al no tener que hacer uso de papeles y tinta físicos, con la contaminación que ello conlleva.
+      - Eficiencia en los registros pues todo quedará guardado en una base de datos virtual a la que se puede acceder fácil y rapidamente, y no un montón de archivos guardados físicamente en infinidad de carpetas.
 
+  - **Mejorar en la atención y servicio a los usuarios del parqueadero:** Dado que el operario del parqueadero sólo deberá ingresar los datos en el software, la labor de registro, cobro y salida de los usuarios y vehiculos se realizará de una manera mucho más rápida.
 
-  - **Recopilación de información:**
-  - **Eliminación de registro manuales en papel:**
-  - **Mejorar en la atención y servicio a los usuarios del parqueadero:**
-  - **Mayor eficiencia operativa:**
+  - **Mayor eficiencia operativa:** Como las labores anteriormente mensionadas se realizan en menos tiempo el operario estará menos atareado, lo que mejorará sus condiciones laborales así como su eficiencia. 
 
 ## ESPECIFICACIÓN DE REQUISITOS
 
