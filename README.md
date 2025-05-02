@@ -34,7 +34,7 @@ Dicho software contará con una interfaz sencilla e intuitiva de utilizar, logra
 
 Así mismo, la sencillez del softwara nos permitirá poder exportarlos y adaptarlo fácil y rápidamente para su uso en otros parqueaderos.
 
-![Image](https://github.com/user-attachments/assets/0e22af24-de14-4dee-8eec-dc4b749452ad)
+![Image](https://github.com/user-attachments/assets/e22353da-3ffe-453c-a66d-5df96d860523)
 
 ## LICENCIA DE SOFTWARE
 
