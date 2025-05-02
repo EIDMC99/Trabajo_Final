@@ -28,10 +28,11 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
 
 El nombre escogido para este proyecto será el de: *Parqueadero: "¡Párchese!"*.
 
-Este proyecto tiene el objetivo de brindar el servicio de parqueadero a todos los estudiantes, profesores y familia universitaria de la Universidad de Antioquia en la ciudad de Medellín, esto con el fin de lograr experiencias más amenas y satisfacer la demanda de parqueadero que tanto atormenta a nuestra comunidad. 
+Este proyecto tiene el objetivo dotar al parqueadero **"Párchese"** con un software que le permita poder brindar un mejor servicio a la comunidad Universitaria de la UdeA en la ciudad de Medellín, así como también a la comunidad en general, mejoran y facilitando su acceso al mismo.
 
-Aunque la comunidad universitaria es nuestra prioridad, nuestro servicio no estará limitado a la misma y la ciudadania en general ta
-mbién podrá hacer uso del mismo.
+Dicho software contará con una interfaz sencilla e intuitiva de utilizar, logrando que cualquier operario que cuente incluso con pocas habilidades técnicas pueda aprender a hacer uso del mismo en un corto periodo de tiempo.
+
+Así mismo, la sencillez del softwara nos permitirá poder exportarlos y adaptarlo fácil y rápidamente para su uso en otros parqueaderos.
 
 ## LICENCIA DE SOFTWARE
 
