@@ -64,8 +64,24 @@ El propósito general de este software sará el de ser una vital herramienta en 
 
 ## ESPECIFICACIÓN DE REQUISITOS
 
+Dados las condiciones del software solicitados por el parqueadero, el mismo contará con las siguientes requisitos funcionales y no funcionales:
 
+### Requisitos Funcionales:
+
+- **Registro de Usuario:** Al momento de ingreso el usuario será registrado con su: Nombre, Apellido, Documento de identidad y placa del vehiculo que conduce.
+  
+- **Ingreso del Vehiculo:** El software sólo permitirá el ingreso de vehiculos registrados éxitosamente. Al momento del ingreso se imprimirá un recibo en el que consta el ingreso del mismo y procederá a contar el tiempo que este pase dentro del parqueadero.
+  
+- **Retiro del vehiculo:** El sofware sólo permitirá retirar vehiculos previamente registrados. Al momento de registrar el retiro el software procederá a calcular automaticamente el precio del tiempo de parqueo para el posterior cobro del mismo.
+
+- **Funciones Administrativas:** A estas funciones sólo podrán acceder los usuarios con el rol de administrador. En las funciones administrativas se guardará toda la base de datos del parqueadero.
+
+### Requisitos no funcionales:**
+
+- 
 
 ## PLAN DE PROYECTO
 
-Para el desarrollo de este proyecto contamos con un presupuesto de trabajo de 50 horas, las cuales serás divididas para el desarrollo de 
+Para el desarrollo de este proyecto contamos con un presupuesto de trabajo de 50 horas, las cuales serás divididas en distintas tareas de la siguiente manera:
+
+
