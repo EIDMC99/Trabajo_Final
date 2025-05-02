@@ -95,3 +95,4 @@ Dados las condiciones del software solicitados por el parqueadero, el mismo cont
 
 Para el desarrollo de este proyecto contamos con un presupuesto de trabajo de 50 horas, las cuales serás divididas en distintas tareas de la siguiente manera:
 
+![Image](https://github.com/user-attachments/assets/f577c487-5de0-4feb-bf50-f942f2b62b90)
