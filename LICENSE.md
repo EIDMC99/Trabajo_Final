@@ -1,4 +1,4 @@
-Parqueadero: "¡Parchese!" © 2025 by EIDMC99, Hadaro13, is licensed under Creative Commons Attribution 4.0 International 
+Parqueadero: "¡Parchese!" © 2025 by EIDMC99, Hadaro13, Darsydoria is licensed under Creative Commons Attribution 4.0 International 
 
 reative Commons Attribution 4.0 International Public License
 
