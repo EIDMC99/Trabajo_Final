@@ -68,7 +68,13 @@ Para Jeffrey
 # Firma de la acta
 
 **Darsy:**
-
+- Alias:
+- Firma:
+  
 **Hancer**
-
-**Jeffrey**
+- Alias:
+- Firma:
+  
+**Jeffrey David Manjarrés Ciro**
+- Alias: EIDMC99
+- Firma: *Jeffdmciro*  
