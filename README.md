@@ -39,19 +39,22 @@ Este software está licenciado bajo: Creative Commons Attribution 4.0 Internatio
 Esto con el fin de que todos quienes deseen adaptarlo a su respectivo negocio puedan hacer uso del mismo.
 
 ## REPORTE DE VISIÓN
-
-El sofware es amigable para el usuario, brindando una interfaz vistosa y fácil de utilizar. 
+ 
+El propósito general de este software sará el manejo de información con el fin de agilizar las tareas de operación del parqueadero, mejorando la eficiencia en la prestación del servicio y la calidad del mismo. Para ello el software deberá cumplir con los suiguientes objetivos.
 
 ### OBJETIVOS DEL SOFTWARE
 
-  - **Automatizar los procesos de gestión del parqueadero:**
-  - **Recopilar información:**
-  - **Facilitar el cálculo automático de cobros por hora o fracción:**
-  - **Controlar en tiempo real los espacios disponible:**
-  - **Calcular atomaticamente el cobro:**
- 
+  - **Automatizar los procesos de gestión del parqueadero:** Con el fin de mejorar la eficiencia de los trabajadores, la calidad y la rapidez del servicio.
+
+  - **Recopilar información:** Esto con el fin de tener un base de datos que pueda ser posteriormente analizada para la toma de decisiones de negocio, así como también contar con un registro de quién y qué vehiculo hicieron uso del parqueadero en caso de ser solicitado por las autoridades en materia de una investigación.
+    
+  - **Calcular automaticamente el cobro:** Con esto se logra minizar los posibles errores de cobro que se pueden presentar al hacerlo de manera manual para todos y cada uno de los clientes que se presenten en un día, a su vez que el mismo se calcula del manera inmediata al registrar la salida, mejorando así la experiencia del usuario.
+    
+  - **Controlar en tiempo real los espacios disponible:** De esta manera el operador del parqueadero sabrá en qué momentos hay disponibilidad, o no, del servicio; de esta manera se logra evitar inconvenientes con posibles clientes que ingresen al parqueadero sin saber si hay lugares disponibles o no.
 
 ### BENEFICIOS DEL SOFWARE
+
+
 
   - **Recopilación de información:**
   - **Eliminación de registro manuales en papel:**
@@ -60,4 +63,8 @@ El sofware es amigable para el usuario, brindando una interfaz vistosa y fácil 
 
 ## ESPECIFICACIÓN DE REQUISITOS
 
+
+
 ## PLAN DE PROYECTO
+
+Para el desarrollo de este proyecto contamos con un presupuesto de trabajo de 50 horas, las cuales serás divididas para el desarrollo de 
