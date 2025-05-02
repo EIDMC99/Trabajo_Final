@@ -10,7 +10,7 @@
 ## EXPECTATIVAS DE CADA MIEMBRO RESPECTO AL PROYECTO
 
 - **Darsy Daniela Doria:** Espero que este proyecto nos permita aplicar los conocimientos obtenidos en clase, desarrollar nuevas habilidades y seguir mejorando nuestra habilidad de trabajo en equipo y capacidad de adaptación. Me motiva saber que estamos creando una herramienta qu epuede ser útil en la vida real.
-- **Hancer**
+- **Hancer:** Mi expectativa con este proyecto es adquirir experiencia práctica en el desarrollo de sofware, aprender a enfrentar desafíos reales en equipo y aportar al diseño de un producto funcional que tenga un impacto positivo en la comunidad universitaria.   
 - **Jeffrey**
 
 # ACTA DE COLABORACIÓN
