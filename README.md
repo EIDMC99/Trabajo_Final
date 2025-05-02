@@ -13,7 +13,7 @@ Acontinuación se presetantarán los items entregables del trabajo final de Algo
 ## VINCULOS ACADÉMICOS Y DESCRIPCIÓN
 
 - **Jeffrey:**
-  - Estudiante de Ingeniería Industrial.
+  - Estudiante de Ingeniería Industrial, Campus Puerto Berrío.
   - Me considero una persona muy optimista y siempre estoy dispuesto a enfrentar y solucionar los problemas que se me presentan.
 
 - **Darsy:**
