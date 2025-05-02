@@ -89,6 +89,8 @@ Dados las condiciones del software solicitados por el parqueadero, el mismo cont
 
 - **Compatibilidad:** El sistema deberá poder correr en varios navegadores modernos.
 
+- **Interfaz:** El programa debe ser lo más sencillo posible para que cualquier operarico con una corta capacitación pueda ser capaz de utilizarlo.
+
 ## PLAN DE PROYECTO
 
 Para el desarrollo de este proyecto contamos con un presupuesto de trabajo de 50 horas, las cuales serás divididas en distintas tareas de la siguiente manera:
