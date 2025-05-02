@@ -71,9 +71,9 @@ Para Jeffrey
 - Alias:
 - Firma:
   
-**Hancer**
-- Alias:
-- Firma:
+**Hancer David Romero Trespalacios**
+- Alias: Hadaro13
+- Firma: Hancer Romero 
   
 **Jeffrey David Manjarrés Ciro**
 - Alias: EIDMC99
