@@ -72,6 +72,3 @@ Para Jeffrey
 **Hancer**
 
 **Jeffrey**
-  Alias 
-  Firma
-
