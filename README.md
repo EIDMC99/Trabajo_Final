@@ -78,10 +78,15 @@ Dados las condiciones del software solicitados por el parqueadero, el mismo cont
 
 ### Requisitos no funcionales:**
 
-- 
+- **Rendimiento:** El software deberá estar optimizado para correr con cortos tiempos de carga, esto con el fin de mejorar la velocidad y calidad del servicio.
+
+- **Seguridad:** La base datos deberá ser accesible sólo para los administradores.
+
+- **Escalabilidad:** El software deberá ser lo suficientemente sencillo para poder ser utilizado por otros parqueaderos en el futuro sin tener que hacer grandez modificaciones al código base.
+
+- **Compatibilidad:** El sistema deberá poder correr en varios navegadores modernos.
 
 ## PLAN DE PROYECTO
 
 Para el desarrollo de este proyecto contamos con un presupuesto de trabajo de 50 horas, las cuales serás divididas en distintas tareas de la siguiente manera:
-
 
