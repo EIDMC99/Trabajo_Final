@@ -1,6 +1,6 @@
 # TRABAJO FINAL DE PROGRAMACIÓN
 
-Acontinuación se presetantarán los items entregables del trabajo final de Algoritmica y Programación. 
+Acontinuación se presetantarán los items entregables del trabajo final de Algoritmia y Programación. 
 
 ## INTEGRANTES
 
