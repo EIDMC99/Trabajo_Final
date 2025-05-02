@@ -89,7 +89,9 @@ Dados las condiciones del software solicitados por el parqueadero, el mismo cont
 
 - **Compatibilidad:** El sistema deberá poder correr en varios navegadores modernos.
 
-- **Interfaz:** El programa debe ser lo más sencillo posible para que cualquier operarico con una corta capacitación pueda ser capaz de utilizarlo.
+- **Usabilidad:** El programa debe ser lo más sencillo posible para que cualquier operarico con una corta capacitación pueda ser capaz de utilizarlo.
+
+- **Fiabilidad:** El software deberá poder funcionar sin fallos por un largo perido de tiempo, evitando molestias a los operarios y usuarios del parqueadero.
 
 ## PLAN DE PROYECTO
 
