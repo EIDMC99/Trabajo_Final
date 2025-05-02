@@ -21,7 +21,7 @@ Dado de que cada uno de los integrantes del grupo se encuntra en distintas local
 
 - Encuentros asincrónicos por chat entre semana, en los cuales se informará a los compañeros sobre los progresos del proyecto y se aportarán ideas.
 
-- Encuentros sincrónicos cada Domingo a las 14:00, cuya duración será de tres horas, con el fin de aclarar dudas y avanzar con el desarrollo del proyecto en tiempo real.
+- Encuentros sincrónicos cada Domingo a las 14:00, cuya duración será de tres horas, con el fin de aclarar dudas y avanzar con el desarrollo del proyecto en tiempo real y asignar tareas a cada integrante.
 
 - Cada miembro podrá realizar sus tareas asignadas de manera asincrónica y podrá consultar o solicitar ayuda a los compañeros en caso de dificultad o dudas, dicha ayuda se le será brindada tan pronto otro compañero tenga disponibilidad.
 
@@ -39,4 +39,38 @@ Dado de que cada uno de los integrantes del grupo se encuntra en distintas local
 
 # ACTA DE RESPONSABILIDAD 
 
+Dado situación en la que se encuentran los miembros del grupo se acordó que cada uno de los miembro arquiera las siguientes responsabilidades.
 
+Para todos:
+
+- Reportar su parte del trabajo en los plazos establecidos en las reuniones sincrónicas.
+- Apoyar a los demás compañeros, cuando estos lo soliciten, tan pronto se tenga la disponibilidad para hacerlo.
+- Cumplir con lo que se le asigne.
+
+Para Darsy:
+
+  - Planificación del proyecto.
+  - Creación del software y aporte de ideas para el mismo.
+  - Creación de imágenes y diseños que se puedan nesecitar durante el proyecto.
+
+Para Hancer
+
+ - Planificación del proyecto.
+ - Testeo del software y la idenficicación de problemas en el mismo.
+ - Ayudar en la estructuración del proyecto.
+
+Para Jeffrey 
+
+ - Planificación del proyecto.
+ - Creación del software y aporte de ideas para el mismo
+ - Administración del repositorio de Github en el cual se realiza el trabajo
+
+# Firma de la actas
+
+**Darsy:**
+
+
+**Hancer:**
+
+**Jeffrey:**
+Jeffdmciro
