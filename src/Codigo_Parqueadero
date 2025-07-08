@@ -1,0 +1,245 @@
+import re
+import csv
+from datetime import datetime, timedelta
+from google.colab import files
+
+# Estructuras de datos
+usuarios = {}
+vehiculos = {}
+registros_parqueo = []
+administradores = {"Gomito58": "SOLO_PES", "ElJefazo": "Contraseña Innombrable", "ramiro": "orimar", "Hadaro": "Hanro1303", "DarsyD": "2505dars"}
+nombre_archivo = {}
+
+ESPACIOS_TOTALES = 64
+
+# Validaciones
+def validar_nombre(nombre):
+    partes = nombre.strip().split()
+    if len(partes) > 2:
+        return False, "El nombre no puede tener más de dos palabras ✌️"
+    if any(len(p) < 1 or not p.isalpha() for p in partes):
+        return False, "Cada nombre debe tener al menos 1 letra y no puede contener números 👍"
+    return True, ""
+
+def validar_apellido(apellido):
+    partes = apellido.strip().split()
+    if len(partes) > 2:
+        return False, "El apellido no puede tener más de dos palabras ✌️"
+    if any(len(p) < 1 or not p.isalpha() for p in partes):
+        return False, "Cada apellido debe tener al menos 1 letra y no puede contener números 👍"
+    return True, ""
+
+def validar_documento(doc):
+    return doc.isdigit() and 3 <= len(doc) <= 15
+
+def validar_placa(placa):
+    return bool(re.fullmatch(r'[A-Z]{3}[0-9]{3}', placa.upper()))
+
+# Registro de usuario
+def registrar_usuario():
+    nombre = input("Ingrese nombre del usuario ❤️: ").strip()
+    valido, msg = validar_nombre(nombre)
+    if not valido:
+        print("❌ Error:", msg)
+        return
+
+    apellido = input("Ingrese apellido del usuario >⩊<: ").strip()
+    valido, msg = validar_apellido(apellido)
+    if not valido:
+        print("❌ Error:", msg)
+        return
+
+    documento = input("Ingrese documento (solo números): ").strip()
+    if not validar_documento(documento):
+        print("❌ El documento debe tener entre 3 y 15 dígitos")
+        return
+
+    placa = input("Ingrese la placa (formato ABC123): ").strip().upper()
+    if not validar_placa(placa):
+        print("❌ Placa inválida. Debe tener formato 3 letras (sin ñ) + 3 números")
+        return
+
+    if documento in usuarios:
+        print("Este usuario ya está registrado 👀")
+        return
+
+    usuarios[documento] = {
+        "nombre": nombre,
+        "apellido": apellido,
+        "placa": placa
+    }
+    print("✅ Usuario registrado correctamente 😊")
+
+# Ingreso del vehículo
+def ingresar_vehiculo():
+    documento = input("Ingrese el documento del usuario ❤️: ").strip()
+    if documento not in usuarios:
+        print("❌ Usuario no registrado")
+        return
+
+    placa = usuarios[documento]['placa']
+    if placa in vehiculos:
+        print("❌ Este vehículo ya está registrado en el parqueadero")
+        return
+
+    disponibles = obtener_espacios_disponibles()
+    if not disponibles:
+        print("❌ No hay espacios disponibles")
+        return
+
+    print(f"Espacios disponibles ({len(disponibles)}):")
+    print(disponibles)
+
+    try:
+        espacio = int(input("Seleccione el número de espacio a ocupar 👉👈: "))
+        if espacio not in disponibles:
+          print("Espacio ya ocupado 🥺")
+          return
+    except ValueError:
+      print("❌ Entrada no valida")
+      return
+
+    hora_ingreso = datetime.now()
+    vehiculos[placa] = {
+        "documento": documento,
+        "hora_ingreso": hora_ingreso,
+        "espacio": espacio
+    }
+    print(f"✅ Vehículo ingresado con éxito al espacio {espacio} a las {hora_ingreso.strftime('%H:%M:%S')} 😊")
+
+def obtener_espacios_disponibles():
+  ocupados = {info['espacio'] for info in vehiculos.values()}
+  return [i for i in range(1, ESPACIOS_TOTALES + 1) if i not in ocupados]
+
+# Retiro del vehículo
+def retirar_vehiculo():
+    placa = input("Ingrese la placa del vehículo ❤️: ").strip().upper()
+    if placa not in vehiculos:
+        print("❌ Vehículo no encontrado.")
+        return
+
+    registro = vehiculos.pop(placa)
+    hora_ingreso = registro["hora_ingreso"]
+    hora_salida = datetime.now()
+    tiempo_total = hora_salida - hora_ingreso
+
+    horas = tiempo_total.seconds // 3600
+    minutos = (tiempo_total.seconds % 3600) // 60
+    cuartos_hora = minutos // 15
+
+    total = horas * 7000 + cuartos_hora * 1500
+    if total < 7000:
+        total = 7000
+
+    registros_parqueo.append({
+        "placa": placa,
+        "documento": registro["documento"],
+        "ingreso": hora_ingreso,
+        "salida": hora_salida,
+        "total": total,
+        "duracion": tiempo_total
+    })
+
+    print(f"\n🧾 Recibo de pago")
+    print(f"Placa: {placa}")
+    print(f"Hora ingreso: {hora_ingreso.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Hora salida: {hora_salida.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"💵💰💳 Total a pagar: ${total:,}\n")
+
+# Módulo administrador
+def admin():
+    usuario = input("Ingrese usuario de administrador 😎👌🔥: ")
+    contrasena = input("Ingrese contraseña 🤫: ")
+
+    if administradores.get(usuario) != contrasena:
+        print("❌ Acceso denegado.")
+        return
+
+    while True:
+      print("\n 😎 Guarida Super Secreta de los Admin 😉")
+      print("1. Ver reportes 👀")
+      print("2. Exportar registros a CSV 📄")
+      print("3. Volver al menú principal ↩️")
+      opcion = input("Seleccione una opción 😊: ")
+
+      if opcion == "1":
+          mostrar_reportes()
+      elif opcion == "2":
+          exportar_registros_csv()
+      elif opcion == "3":
+          break
+      else:
+          print("❌ Opción inválida.")
+
+def mostrar_reportes():
+    print("\n REPORTES ADMINISTRATIVOS 📊")
+    print(f"Total de vehículos registrados 🚗: {len(usuarios)}")
+    print(f"Total de vehículos retirados 💀: {len(registros_parqueo)}")
+    print(f"Total de vehículos sin retirar 😊: {len(vehiculos)}")
+    print(f"💸🤑💰 Total pagos realizados: ${sum(r['total'] for r in registros_parqueo):,}")
+
+    if registros_parqueo:
+        promedio = sum(r['duracion'].total_seconds() for r in registros_parqueo) / len(registros_parqueo)
+        promedio_td = timedelta(seconds=promedio)
+        print(f"Tiempo promedio de estancia 🕒: {promedio_td}")
+
+        maximo = max(registros_parqueo, key=lambda r: r['duracion'])
+        minimo = min(registros_parqueo, key=lambda r: r['duracion'])
+        print(f"Vehículo con mayor tiempo 🕒: {maximo['placa']} ({maximo['duracion']})")
+        print(f"Vehículo con menor tiempo 🕒: {minimo['placa']} ({minimo['duracion']})")
+
+    print("\nLista de usuarios:")
+    for doc, datos in usuarios.items():
+        print(f"{datos['nombre']} {datos['apellido']} - Doc: {doc} - Placa: {datos['placa']}")
+
+def exportar_registros_csv(nombre_archivo="registros_parqueadero.csv"):
+  if not registros_parqueo:
+    print("❌ No hay registros aún")
+    return
+
+  with open(nombre_archivo, mode='w', newline="", encoding="utf-8") as file:
+    writer = csv.writer(file, delimiter=';')
+    writer.writerow(["Documento", "Placa", "Hora de Ingreso", "Hora de Salida", "Tiempo", "Total pagado"])
+    for registro in registros_parqueo:
+      writer.writerow([
+          registro["documento"],
+          registro["placa"],
+          registro["ingreso"].strftime("%Y-%m-%d %H:%M:%S"),
+          registro["salida"].strftime("%Y-%m-%d %H:%M:%S"),
+          str(registro["duracion"]),
+          registro["total"]
+      ])
+  print(f"Datos exportados correctamente a 📄'{nombre_archivo}'.")
+  files.download(nombre_archivo)
+
+# Menú principal
+def menu_principal():
+    while True:
+        print("""
+        ______
+       /|_||_\'.__
+      (   _    _ _|
+      =`-(_)--(_)-' """)
+        print("\n 9️5️⃣ Bienvenido al Parquedero Párchese 🚗🔥")
+        print("1. Registrar usuario 🙋‍♂️")
+        print("2. Ingreso de vehículo 🚘")
+        print("3. Retiro de vehículo 🤬")
+        print("4. Administrador 😎")
+        print("5. Salir 👋")
+        opcion = input("Seleccione una opción, Amor 😊: ")
+
+        if opcion == "1":
+            registrar_usuario()
+        elif opcion == "2":
+            ingresar_vehiculo()
+        elif opcion == "3":
+            retirar_vehiculo()
+        elif opcion == "4":
+            admin()
+        elif opcion == "5":
+            print("👋 Saliendo del programa...")
+            break
+        else:
+            print("Opción inválida, tontito, Intenta de nuevo 😛")
+
+menu_principal()
