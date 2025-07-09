@@ -14,19 +14,25 @@ ESPACIOS_TOTALES = 64
 
 # Validaciones
 def validar_nombre(nombre):
+    if not nombre.strip():
+      return False, "El nombre no puede estar vacío 😠"
+
     partes = nombre.strip().split()
     if len(partes) > 2:
         return False, "El nombre no puede tener más de dos palabras ✌️"
-    if any(len(p) < 1 or not p.isalpha() for p in partes):
-        return False, "Cada nombre debe tener al menos 1 letra y no puede contener números 👍"
+    if any(len(p) < 3 or not p.isalpha() for p in partes):
+        return False, "Cada nombre debe tener al menos 3 letras y no puede contener números 👍"
     return True, ""
 
 def validar_apellido(apellido):
+    if not apellido.strip():
+      return False, "El apellido no puede estar vacío 😠"
+
     partes = apellido.strip().split()
     if len(partes) > 2:
         return False, "El apellido no puede tener más de dos palabras ✌️"
-    if any(len(p) < 1 or not p.isalpha() for p in partes):
-        return False, "Cada apellido debe tener al menos 1 letra y no puede contener números 👍"
+    if any(len(p) < 3 or not p.isalpha() for p in partes):
+        return False, "Cada apellido debe tener al menos 3 letras y no puede contener números 👍"
     return True, ""
 
 def validar_documento(doc):
